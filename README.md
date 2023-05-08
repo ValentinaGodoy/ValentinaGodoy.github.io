@@ -1,5 +1,3 @@
-# ValentinaGodoy.github.io
+# Proyecto integrador con HTML y CSS
 Valentina Godoy
 
-# codo_java_2023
- Trabajo practico
