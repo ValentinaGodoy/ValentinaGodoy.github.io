@@ -1,0 +1,301 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+}
+
+/*1ero- Barra de navegacion*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: #383c44;
+    align-items: center;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.icono{
+    height: 65px;
+}
+
+.nombre{
+    color: white;
+}
+
+.items a {
+    padding-right:10px;
+    color:#91979d
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+#verde{
+    color: #3d7d4e;
+}
+
+#verde:hover{
+    font-weight:bold;
+    color: green;
+}
+
+/*2do- Imagen de fondo con info*/
+#hero{
+    color: white;
+    display: flex;
+    align-items:self-end;
+    justify-content: right;
+    text-align: end;
+    flex-direction: column;
+    height: 70vh;
+    padding: 100px 100px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton1{
+    color: white;
+    border-color: white;
+    background-color: transparent ;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.boton1:hover {
+    background-color:#91979d;
+}
+
+.boton2 {
+    color: white;
+    border-color: #25a945;
+    background-color: #25a945;
+    padding: 5px 10px;
+}
+
+.boton2:hover {
+    background-color: green;
+}
+
+/*3ero- Oradores*/
+.conoce-a-los{
+   text-align: center;
+   margin-bottom: 0%;
+   margin-top: 20px;
+}
+
+.oradores {
+    text-align: center;
+    margin-top: 0%;
+    font-size: xx-large;
+}
+
+.container-card {
+    width: 100%;
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.title-cards {
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #7a7a7a;
+}
+
+.card {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+}
+
+.card .contenido-card {
+    padding: 15px;
+}
+
+.card .sector {
+    display: flex;
+
+}
+
+.card .java {
+    color: black;
+    font-weight: bold;
+    background-color: #f9c10f;
+    border-radius: 4px;
+    padding: 2px 3px;
+    margin-right: 5px;
+}
+
+.card .react {
+    color: white;
+    font-weight: bold;
+    background-color: #23a2be;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.card .negocios {
+    color: white;
+    font-weight: bold;
+    background-color: #6d757d;
+    border-radius: 4px;
+    padding: 2px 3px;
+    margin-right: 5px;
+}
+
+.card .startups {
+    color: white;
+    font-weight: bold;
+    background-color: #d13a4b;
+    border-radius: 4px;
+    padding: 2px 3px;
+    margin-right: 5px;
+}
+
+.card .contenido-card h3 {
+    margin-bottom: 15px;
+}
+
+.card .contenido-card p {
+    line-height: 1.8;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+
+/*4to- Carta horizontal*/
+
+
+.card-horizontal{
+    display: flex;
+}
+
+.card-body{
+    padding: 10px;
+    color: #ddebfb;
+    background-color: #353a40;
+    font-size: small;
+}
+
+.boton3 {
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    padding: 5px 10px;
+}
+
+.boton3:hover {
+    background-color: #91979d;
+}
+
+
+/*5to- Formulario*/
+.anotate{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#datos{
+    margin-bottom: 20px;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#inputApellido {
+    font-size: medium;
+    width: 400px;
+}
+
+#inputNombre{
+    font-size: medium;
+    width: 400px;
+}
+
+#textarea {
+    font-size:large;
+    width: 75%;
+    height: 100px;
+}
+
+#recuerda{
+    align-items: start;
+    margin-right: 720px;
+}
+
+.boton4 {
+    color: white;
+    border-color: #96c93e;
+    background-color: #96c93e;
+    padding: 10px 470px;
+}
+
+.boton4:hover {
+    background-color: green;
+}
+
+/*6to-Pie de pagina*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: #1d506d;
+    align-items: center;
+    padding: 10px 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.items2 a {
+    padding-right: 60px;
+    color: #e2fafd;
+}
+
+.items2 a:hover{
+    color: white;
+    font-weight: bold;
+}
